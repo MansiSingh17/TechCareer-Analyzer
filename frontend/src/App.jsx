@@ -4,6 +4,7 @@ import SalaryPredictor from './pages/SalaryPredictor'
 import CareerAnalyzer from './pages/CareerAnalyzer'
 import SkillExtractor from './pages/SkillExtractor'
 import TrendsDashboard from './pages/TrendsDashboard'
+import ThemeSwitcher from './components/ThemeSwitcher'
 
 function App() {
   return (
@@ -47,6 +48,9 @@ function App() {
             <div className="pill">Built with React · FastAPI · PyTorch · TensorFlow · Prophet</div>
           </div>
         </footer>
+
+        {/* Theme Switcher */}
+        <ThemeSwitcher />
       </div>
     </Router>
   )
